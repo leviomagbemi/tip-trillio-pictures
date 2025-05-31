@@ -1,0 +1,35 @@
+ /* Custom CSS for elements that need more specific styling */
+        .hero-slide {
+            transition: opacity 1s ease-in-out;
+        }
+        .active-slide {
+            opacity: 1;
+            z-index: 10;
+        }
+        .inactive-slide {
+            opacity: 0;
+            z-index: 1;
+        }
+        .portfolio-item:hover .portfolio-overlay {
+            opacity: 1;
+        }
+        .portfolio-overlay {
+            transition: opacity 0.3s ease;
+        }
+        .testimonial-card {
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        .booking-form input, 
+        .booking-form textarea,
+        .booking-form select {
+            transition: border-color 0.3s ease;
+        }
+        .booking-form input:focus, 
+        .booking-form textarea:focus,
+        .booking-form select:focus {
+            border-color: #f59e0b;
+            outline: none;
+        }
+        .mobile-menu {
+            transition: all 0.3s ease;
+        }
